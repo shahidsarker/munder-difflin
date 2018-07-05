@@ -65,7 +65,7 @@ header {
 .section {
     display: flex;
     padding: 20px 10px;
-    min-height: 400px;
+    min-height: 350px;
 }
 
 nav {
@@ -148,6 +148,7 @@ div.products.section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 10px auto;
 }
 
@@ -156,10 +157,25 @@ div#products p {
     /* border: 1px solid black; */
 }
 
+.popup {
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    width: 150px;
+    /* opacity: .8; */
+    background: white;
+    margin: 50px;
+    padding: 5px;
+    text-align: center;
+    /* z-index: 1; */
+    /* border: 1px solid; */
+    display: none;
+    /* animation: bloop 2s; */
+}
+
 .product img {
     width: 275px;
     align-self: center;
-    border: 1px solid gray;
+    /* border: 1px solid rgb(253, 137, 137); */
     padding: 2px;
     background: white;
 }
