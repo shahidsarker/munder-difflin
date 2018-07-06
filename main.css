@@ -24,8 +24,6 @@ html {
     display: flex;
     flex-direction: column;
     background: white;
-    /* z-index: -2; */
-    /* border: solid gray; */
     border-width: 0 1px;
     color: #171717;
 }
