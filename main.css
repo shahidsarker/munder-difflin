@@ -87,7 +87,7 @@ nav a:last-of-type {
 }
 
 nav a:hover {
-    animation: bloopity .5s;
+    animation: fadeLinks .5s;
     background-color: #1098F7;
 }
 
@@ -234,7 +234,7 @@ footer {
     }
 }
 
-@keyframes bloopity {
+@keyframes fadeLinks {
     0% {
         opacity: .25
     }
@@ -269,6 +269,6 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-    animation: bloopity .5s;
+    animation: fadeLinks .5s;
     background-color: #1098F7;
 }
